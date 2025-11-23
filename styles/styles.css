@@ -1,19 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
 main{
      max-width:840px ;
+     justify-content: center;
+     margin:0 auto;
+     border: 1px solid #000;
+     padding: 10px;
      
 }
 main img{
     width:150px ;
     height: auto;
+    float: right;
+}
+main p{
+    width: 80%;
+    margin-top: 30px;
+    /* padding: 20px; */
 }
 aside{
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid  #000;
+ 
+    text-align: center;
     padding: 10px;
-    background-color: #eee;
-    color: #333;
-    
+   
+}
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 aside img{
     width: 200px;
@@ -23,10 +51,18 @@ p{
     padding: 0;
 }
 
-
-
 footer{
     margin-top: 110px;
     border-top: 2px solid #5e5353;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #000;
 }
