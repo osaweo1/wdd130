@@ -67,7 +67,7 @@ header nav ul a{
     width: 100%;
     height: auto;
 }
-h1{
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -185,8 +185,9 @@ footer{
     color: var(--accent2-color);
     background-color: var(--acccent1-color);
     margin-bottom: 10px;
+    position: relative;
 }
-.addressContainer h3{
+.addressContainer h1{
     font-size: 50px;
     padding: 5px;
 }
