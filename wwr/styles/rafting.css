@@ -164,3 +164,153 @@ footer{
 .socialmedia a{
     text-decoration: none;
 }
+
+
+/* contact page css area */
+
+.contactContainer{
+    /* border:1px solid; */
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addressContainer{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--accent2-color);
+    background-color: var(--acccent1-color);
+    margin-bottom: 10px;
+}
+.addressContainer h3{
+    font-size: 50px;
+    padding: 5px;
+}
+.contactBox{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.addressMap{
+    /* border: 1px solid; */
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+.addressMap iframe{
+    width: 100%;
+    border: 0;
+    height: 400px;
+}
+.contactForm{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 400px;
+
+}
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+}
+.inputname{
+    width: 80%;
+    /* border:1px solid; */
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.inputname input{
+    padding: 10px;
+    width: 78%;
+}
+.inputemail{
+    width: 80%;
+    /* border:1px solid; */
+    padding: 4px;
+    margin-bottom: 5px;   
+}
+.inputemail input{
+    padding: 10px;
+    width: 78%;
+}
+.contactForm form .purpose{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.contactForm form .purpose h5{
+    font-weight: 400;
+    font-size: 15px;
+}
+.contactForm form .purpose .messageDiv{
+    display: flex;
+    flex-direction: column;
+}
+form textarea{
+    width: 70%;
+    height: 70px;
+    max-width: 70%;
+    min-width: 70%;
+    max-height: 70px;
+    min-height: 70px;
+    margin-bottom: 5px;
+}
+form button{
+    width: 425px;
+    padding: 13px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: var(--acccent1-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.employee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: var(--acccent1-color);
+    gap: 10px;
+    /* opacity: 0.7; */
+}
+.employee div h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: var(--accent2-color);
+    padding: 10px;
+}
+.employee .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+.employee .profile div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.employee.profile div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.employee .profile div p{
+    margin-top: -5px;
+    margin-left:-5px ;
+}
